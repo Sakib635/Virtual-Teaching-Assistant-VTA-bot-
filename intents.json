@@ -1,0 +1,479 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "Python Defination",
+      "patterns": [
+        "What is python",
+        "Python",
+        "What does python mean ",
+        "What does python mean",
+        "Pyhton language",
+        "Pyhton programming language"
+      ],
+      "responses": [
+        "Python is an interpreted, interactive, object-oriented programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes. It supports multiple programming paradigms beyond object-oriented programming, such as procedural and functional programming. Python combines remarkable power with very clear syntax. It has interfaces to many system calls and libraries, as well as to various window systems, and is extensible in C or C++. It is also usable as an extension language for applications that need a programmable interface. Finally, Python is portable: it runs on many Unix variants including Linux and macOS, and on Windows."
+      ]
+    },
+    {
+      "tag": "IDE",
+      "patterns": [
+        "How to install IDE",
+        "IDE installation",
+        "IDE",
+        "Anaconda and pycharm on windows",
+        "Anaconda and pycharm"
+      ],
+      "responses": [
+        "https://www.youtube.com/watch?v=_GQd1jwH0A4&t=9s"
+      ]
+    },
+    {
+      "tag": "Definition of sorting",
+      "patterns": [
+        "What is sorting?",
+        "What does sorting means?",
+        "What do you mean by sorting?",
+        "What is the defifntion of sorting?",
+        "sorting"
+      ],
+      "responses": [
+        "Arranging data in an ordered sequence is called 'sorting'.Sorting is any process of arranging items systematically, and has two common, yet distinct meanings: ordering: arranging items in a sequence ordered by some criterion; categorizing: grouping items with similar properties.Sorting is the process of arranging data into meaningful order so that you can analyze it more effectively. For example, you might want to order sales data by calendar month so that you can produce a graph of sales performance. You can use Discoverer to sort data as follows: sort text data into alphabetical order."
+      ]
+    },
+    {
+      "tag": "Built-in sorting function",
+      "patterns": [
+        "What are the built-in function for sorting?",
+        "How many built in functions are there in python?",
+        "Built-in sorting function in python",
+        "Built-in function for sorting in python",
+        "Is sorted() a built in function?",
+        "Is sorted() a built in function?"
+      ],
+      "responses": [
+        "Python has 2 built-in functions called sort() and sorted()."
+      ]
+    },
+    {
+      "tag": "Ascending order",
+      "patterns": [
+        "Definition of in ascending order",
+        "Increasing order",
+        "Ascending order",
+        "What is ascending order?",
+        "What does ascending order means?",
+        "Is sorted() a built in function?"
+      ],
+      "responses": [
+        "Arranged in a series that begins with the least or smallest and ends with the greatest or largest The children were lined up in ascending order of height. Test scores are listed in ascending order from lowest to highest."
+      ]
+    },
+    {
+      "tag": "Ascending sort of list code",
+      "patterns": [
+        "How to sort a list in asceding order using built in function?",
+        "Sort list using built-in function",
+        "What is the way to sort a list in ascending order?",
+        "How can I sort a list in asscending order?",
+        "Ascending sort list code",
+        "Code for sorting a list in ascending order"
+      ],
+      "responses": [
+        "The code is: \n numbers = [10, 20, 70, 60, 40] \n sorted_numbers = sorted(numbers) \n print('Sorted:', sorted_numbers) \n print('Original:', numbers )"
+      ]
+    },
+    {
+      "tag": "Selection sort example",
+      "patterns": [
+        "Selection sort example",
+        "Provide me a example of selection sort",
+        "What is the exmaple of a selection sort?",
+        "A example of selection sort",
+        "Example of selection sort"
+        
+      ],
+      "responses": [
+        "The following shows the sequence of steps in sorting the sequence [ 17 3 9 21 2 7 5 ]. \n In the example below, the '|' symbol shows where the partition is at each step. \n Input: 17 3 9 21 2 7 5 \n ============================================================= \n Step 1: | 17 3 9 21 2 7 5 << minimum is 2, exchange with 17 (index0’s value) \n Step 2: 2 | 3 9 21 17 7 5 << minimum is 3, no exchange needed \n Step 3: 2 3 | 9 21 17 7 5 << minimum is 5, exchange with 9 (index2’s value) \n Step 4: 2 3 5 | 21 17 7 9 << minimum is 7, exchange with 21 (index3’s value) \n Step 5: 2 3 5 7 | 17 21 9 << minimum is 9, exchange with 17 (index4’s value) \n Step 6: 2 3 5 7 9 | 21 17 << minimum is 17, exchange with 21 (index5’s value) \n Step 7 : 2 3 5 7 9 17 | 21 << STOP"
+      ]
+    },
+    {
+      "tag": "Selection sort",
+      "patterns": [
+        "What is selection sort?",
+        "Selection sort",
+        "What does selection sort means?"
+        
+        
+      ],
+      "responses": [
+        "Selection sort is a sorting algorithm that selects the smallest element from an unsorted list in each iteration and places that element at the beginning of the unsorted list."
+      ]
+    },
+    {
+      "tag": "Selection sort working technique",
+      "patterns": [
+        "Selection sort working technique",
+        "How selection sort works?",
+        "How does selection sort work?",
+        "selection sort algo",
+        "selection sort algorithom"
+      ],
+      "responses": [
+        "For selection sort, in the ascending order, we need to find the minimum value of the given sequence and swap it with the first element of the sequence. Then, we need to find the second minimum from the rest of the data (starting from the 2nd index) and swap it with the 2nd element of the sequence. Then, we need to find the 3rd minimum from the rest of the data (starting from the 3rd index) and swap it with the 3rd element of the sequence. We need to continue this process until all the elements of the sequence have moved to their proper position. /n At each iteration, the sequence is partitioned into two sections. The left section is sorted and the right section is being processed. Each iteration, we move the partition one step to the right, until the entire sequence has been processed."
+      ]
+    },
+    {
+      "tag": "Selection sort ascending order",
+      "patterns": [
+        "Selection sort ascending order",
+        "Selection sort in ascending order",
+        "How to perform selection sort in ascending order?",
+        "Selection sort for ascending order code",
+        "Code for selection sort for ascending order code",
+        "Selection sort code",
+        "Code for selection sort"
+      ],
+      "responses": [
+        "  \ndef selectionSort(array, size): \n    for step in range(size): \n        min_idx = step \n        for i in range(step + 1, size):  \n            # to sort in descending order, change > to < in this line  \n            # select the minimum element in each loop \n            if array[i] < array[min_idx]: \n                min_idx = i \n        # put min at the correct position \n        (array[step], array[min_idx]) = (array[min_idx], array[step]) \ndata = [-2, 45, 0, 11, -9] \nsize = len(data) \nselectionSort(data, size) \nprint('Sorted Array in Ascending Order:') \nprint(data)"
+      ]
+    },
+    {
+      "tag": "Bubble sort",
+      "patterns": [
+        "What is bubble sort?",
+        "Bubble sort",
+        "Defination of bubble sort",
+        "What does bubble sort means?"
+        
+        
+      ],
+      "responses": [
+        "Bubble sort is a basic algorithm for arranging a string of numbers or other elements in the correct order. The method works by examining each set of adjacent elements in the string, from left to right, switching their positions if they are out of order."
+      ]
+    },
+    {
+      "tag": "Bubble sort working technique",
+      "patterns": [
+        "Bubble sort working technique",
+        "How bubble sort works?",
+        "working technique for Bubble sort",
+        "How does bubble sort work?",
+        "Bubble sort algorithom",
+        "bubble sort algo"
+      ],
+      "responses": [
+        "For Bubble sort, in each iteration, adjacent elements are compared. If the adjacent elements are in the wrong order, then they are swapped. It has been named 'Bubble sort' because of the way smaller or larger elements 'bubble' to the top(Left side) of the list. As the number of iterations increase, the number of comparisons decreases. \nbubbleSort(array)\n    for i <- 1 to indexOfLastUnsortedElement-1 \n        if leftElement > rightElement \n            swap leftElement and rightElement \nend bubbleSort"
+      ]
+    },
+    {
+      "tag": "Bubble ascending order",
+      "patterns": [
+        "Bubble sort ascending order",
+        "Bubble sort in ascending order",
+        "How to perform Bubble sort in ascending order?",
+        "Bubble sort for ascending order code",
+        "Code for Bubble sort for ascending order code",
+        "Bubble sort code",
+        "Code for Bubble sort"
+      ],
+      "responses": [
+        "  \ndef bubbleSort(arr): \n    n = len(arr) \n    # Traverse through all array elements \n    for i in range(n-1): \n    # range(n) also work but outer loop will \n    # repeat one time more than needed. \n        # Last i elements are already in place \n        for j in range(0, n-i-1): \n            # traverse the array from 0 to n-i-1 \n            # Swap if the element found is greater \n            #than the next element \n            if arr[j] > arr[j + 1] : \n                arr[j], arr[j + 1] = arr[j + 1], arr[j] \n# Driver code to test above \narr = [64, 34, 25, 12, 22, 11, 90] \nbubbleSort(arr) \nprint ('Sorted array is:') \nfor i in range(len(arr)): \n    print ('% d' % arr[i],end='')"
+      ]
+    },
+    {
+      "tag": "Sorting algorithoms",
+      "patterns": [
+        "What are different sorting algorithms?",
+        "How many sorting algorithoms are there?",
+        "Sorting algorithoms"
+        
+      ],
+      "responses": [
+        "Selection Sort. \n Bubble Sort. \n Recursive Bubble Sort. \n Insertion Sort.\n Recursive Insertion Sort.\n Merge Sort.\n Iterative Merge Sort.\n Quick Sort."
+      ]
+    },
+    {
+      "tag": "Sorting algorithoms tutorial",
+      "patterns": [
+        "Sorting algorithoms tutorial",
+        "Tutorial for sorting algorithom",
+        "Sorting algorithom tutorial",
+        "selection sort tutorial",
+        "Tutorial for selection sort algorithom",
+        "Tutorial for selection sort",
+        "bubble sort tutorial",
+        "Tutorial for bubble sort algorithom",
+        "Tutorial for bubble sort"
+        
+      ],
+      "responses": [
+        "English: \nhttps://www.youtube.com/watch?v=xWBP4lzkoyM&list=PLqM7alHXFySHrGIxeBOo4-mKO4H8j2knW&index=5 \n Bangla: \nhttps://www.youtube.com/watch?v=IrieNxBJSOQ \nhttps://www.youtube.com/watch?v=epHw58Kz0Pg"
+      ]
+    },
+    {
+      "tag": "list definition",
+      "patterns": [
+        "What is a list in computer programming?",
+        "What is the use of a list?",
+        "How do you define a list?",
+        "What do you mean by lists?",
+        "What is lists in Python?",
+        "Which is a list?",
+        "What is list and its types?"
+        
+      ],
+      "responses": [
+        "In computer science, a list or sequence is an abstract data type that represents a finite number of ordered values, where the same value may occur more than once.",
+        "A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements. Each element or value that is inside of a list is called an item. Just as strings are defined as characters between quotes, lists are defined by having values between square brackets [ ] .",
+        "Lists are used to store multiple items in a single variable. Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage."
+      ]
+    },
+    
+    {
+      "tag": "built-in list methods",
+      "patterns": [
+        "what are the common lists related built-in methods",
+        "some built in methods",
+        "most used built in methods",
+        "built in methods list python",
+        "some built in methods of list",
+        "list built in methods",
+        "list built in methods in python"
+        
+      ],
+      "responses": [
+        "Methods Associated with Lists: \n1. L.append(e) = adds the object e to the end of L. \n2. L.count(e) = returns the number of times that e occurs in L. \n3. L.insert(i,e) = inserts the object e into L at index i. \n4. L.extend(L1) = adds the items in list L1 to the end of L. \n5. L.remove(e) = deletes the first occurrence of e from L. \n6. L.index(e) = returns the index of the first occurrence of e in L. \n7. L.pop(i) = removes and returns the item at index i in L. If i is omitted, it defaults to -1, to remove and return the last element of L. \n8. L.sort() = sorts the elements of L in ascending order. \n9. L.reverse() = reverses the order of the elements in L."
+      ]
+    },
+    {
+      "tag": "list length",
+      "patterns": [
+        "how len() function or method works",
+        "how many items or value a list contains or holds",
+        "finding list size",
+        "how do i know the length of a list",
+        "list length",
+        "list size"
+        
+      ],
+      "responses": [
+        "To know the number of items in a list: \nexample_list = ['Hersheys','Kitkat', 'Oreo', 'MIMI'] \nprint(len(example_list)) \noutput: \n4"
+      ]
+    },
+    {
+      "tag": "list copy",
+      "patterns": [
+        "how to copy a list",
+        "how to make a list simmilar to other list",
+        "list copy",
+        "how to make two same list",
+        "similar list",
+        "list copy python",
+        "python list copy"
+        
+      ],
+      "responses": [
+        "1.#1) To make a copy of items of the list into a new list, using [:] operator: \ncode: \nexample_list = ['Hersheys','Kitkat', 'Oreo', 'MIMI', 'Cadbury', 'Monchuri-Milk Candy'] \nduplicate_list = example_list [:] \nprint(duplicate_list) \noutput: \n['Hersheys', 'Kitkat', 'Oreo', 'MIMI', 'Cadbury', 'Monchuri-Milk Candy'] \n2. The copied list remains unchanged when the item of original list gets modified: \ncode: \noriginal_list = ['Hersheys','Kitkat', 'Oreo', 'MIMI', 'Cadbury', 'Monchuri-Milk Candy'] \nduplicate_list = original_list [:] \noriginal_list[-1] = 'Pran Mango Bar'\nprint(original_list) \nprint (duplicate_list) \noutput: \n['Hersheys', 'Kitkat', 'Oreo', 'MIMI', 'Cadbury', 'Pran Mango Bar'] \n['Hersheys', 'Kitkat', 'Oreo', 'MIMI', 'Cadbury', 'Monchuri-Milk Candy']"
+      ]
+    },
+    {
+      "tag": "remove() method",
+      "patterns": [
+        "how to delete a value or item from list",
+        "remove specific item from list",
+        "how remove() method works",
+        "give an expamle of remove() method",
+        "how to delete a specific item from list",
+        "remove() method list python",
+        "remove() in python",
+        "remove() method python",
+        "how remove() works in python"
+        
+      ],
+      "responses": [
+        "code: \nsubjects = ['CSE', 'EEE', 'Civil'] \nsubjects.remove('Civil') \nprint(subjects) \noutput: \n['CSE', 'EEE']"
+      ]
+    },
+    {
+      "tag": "Important dates",
+      "patterns": [
+        "Quiz 1 date",
+        "Quiz 2 date",
+        "Quiz 3 date",
+        "Quiz 4 date",
+        "Mid exam Date",
+        "Assignment 1 submission Date",
+        "Assignment 2 submission Date",
+        "Assignment 3 submission Date",
+        "Final Exam date",
+        "deadline",
+        "quiz",
+        "assignment",
+        "dates",
+        "Course deadlines"
+        
+      ],
+      "responses": [
+        "Quiz 1 date - \nQuiz 2 date - \nQuiz 3 date - \nQuiz 4 date - \nAssignment 1 submission date - \nAssignment 2 submission date - \nAssignment 3 submission date - \nMid Exam date - \nFinal Exam date -  "
+      ]
+    },
+    {
+      "tag": "List tutorial",
+      "patterns": [
+        "list python tutorial",
+        "python tutorial for list",
+        "python bangla tutorial for list",
+        "bangla list tutorial",
+        "list python tutorial bangla",
+        "python tutorial for list bangla",
+        "List tutorial",
+        "list bangla tutorial"
+        
+      ],
+      "responses": [
+        "English: \nhttps://www.youtube.com/watch?v=9OeznAkyQz4  \nBangla: \nhttps://www.youtube.com/watch?v=V0zzqVn3Tn8  \nhttps://www.youtube.com/watch?v=YVov0H3JRkc \nhttps://www.youtube.com/watch?v=xNAmz83-Dkw&t=128s"
+      ]
+    },
+    {
+      "tag": "Tuple",
+      "patterns": [
+        "Tuple definition",
+        "What is tuple",
+        "tuple",
+        "tuple python",
+        "what does tuple mean",
+        "Explain tuple with a example",
+        "tuple example"
+        
+      ],
+      "responses": [
+        "A tuple is a sequence of elements of any type and is immutable. In python, they are initialized inside parenthesis '()' instead of square brackets '[]'.To create a tuple, we simply have to do the following: \nCode: \nexample_tuple = ('Banana', 'Mango', 'Apple', 'Orange','Grape','Jackfruit') \nfor fruit in example_tuple: \n    print(fruit) \nOutput: \nBanana \nMango \nApple \nOrange \nGrape",
+        "Tuples are used to store multiple items in a single variable. A tuple is a collection which is ordered and unchangeable. Tuples are written with round brackets.",
+        "A tuple is a collection of objects which ordered and immutable. Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.",
+        "Tuple is a collection of values separated by comma and enclosed in parenthesis. Unlike lists, tuples are immutable. The immutability can be considered as the identifying feature of tuples."
+      ]
+    },
+    {
+      "tag": "List tuple comparison",
+      "patterns": [
+        "List and tuple comparison",
+        "DIfference between list and tuple",
+        "Comparison between list and tuple",
+        "list vs tuple",
+        "list vs tuple python",
+        "List and tuple comparison in python",
+        "Is list better than tuple?",
+        "Is tuple better than list?"
+        
+      ],
+      "responses": [
+        "1.List is mutable but tuples are immutable \n2.List iteration is slower and time-consuming but tuples iteration is faster. \n3.List is performed well in insertion and deletion operations but tuples are performed well in accessing elements operations. \n4.List takes more memory but Tuples take less memory."
+      ]
+    },
+    {
+      "tag": "built-in methods tuple",
+      "patterns": [
+        "what are the common tuple related built-in methods",
+        "some built in methods of tuple",
+        "most used built in methods of tuple",
+        "built in methods tuple python",
+        "tuple built-in method",
+        "which are the built-in tuple method?",
+        "tuple built in methods in python"
+        
+      ],
+      "responses": [
+        "1. len():Finds the number of items in the tuple \n2. tuple():Returns a tuple using double round-brackets. \n3. count():Returns the number of times the value appears in the tuple. \nindex():Searches for the first occurrence of the value 12, and returns its position. \nenumerate():It takes a list as a parameter and returns a tuple for each element in the list."
+      ]
+    },
+    {
+      "tag": "data type python",
+      "patterns": [
+        "What Datatype means?",
+        "data type python",
+        "Datatype?",
+        "What is the definition of data type?",
+        "defination of datatype",
+        "data type example",
+        "Different types of datatypes"
+        
+      ],
+      "responses": [
+        "The data type is mainly the category of the data. \n There are basically 6 groups of main data types but there are various other types available in python.Those are: \n1. Numeric type \n2.Boolean type \n3.Sequence type \n4.Mapping Type \n5.NoneType"
+      ]
+    },
+    {
+      "tag": "for loop",
+      "patterns": [
+        "for loop",
+        "'for' loop definition",
+        "'for' loop example",
+        "for loop python",
+        "What is a for loop in Python?",
+        "what does 'for' loop means?"
+        
+      ],
+      "responses": [
+        "For loops are used when you have a block of code which you want to repeat a fixed number of times. The for-loop is always used in combination with an iterable object, like a list or a range. The Python for statement iterates over the members of a sequence in order, executing the block each time. \nCode: \nfor number in range(0, 5, 2):  \n    print(number) \nOutput: \n0, 2, 4 \n===============  \nExplanation: \nIt has start value 2 and end value, 5. So by default, the step size will be 1."
+      ]
+    },
+    {
+      "tag": "while loop",
+      "patterns": [
+        "while loop",
+        "'while' loop definition",
+        "'while' loop example",
+        "while loop python",
+        "What is a while loop in Python?",
+        "what does 'while' loop means?"
+        
+      ],
+      "responses": [
+        "A 'while' Loop is used to repeat a specific block of code an unknown number of times, until a condition is met. For example, if we want to ask a user for a number between 1 and 10, we don't know how many times the user may enter a larger number, so we keep asking 'while the number is not between 1 and 10'. \ncode: \ncount = 1 \nwhile count <= 5: \n    print(\"Hi\") \n    count = count + 1 \nOutput: \nHi \nHi \nHi \nHi \nHi"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
